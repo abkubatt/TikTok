@@ -11,6 +11,10 @@
 		A50802D32B90678C00E90F3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50802D22B90678C00E90F3E /* ContentView.swift */; };
 		A50802D52B90678D00E90F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50802D42B90678D00E90F3E /* Assets.xcassets */; };
 		A50802D82B90678D00E90F3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50802D72B90678D00E90F3E /* Preview Assets.xcassets */; };
+		A5111D4E2B9A151A00BBCB61 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5111D4D2B9A151A00BBCB61 /* NotificationView.swift */; };
+		A5111D502B9A152400BBCB61 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5111D4F2B9A152400BBCB61 /* NotificationCell.swift */; };
+		A5111D522B9A175900BBCB61 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5111D512B9A175900BBCB61 /* ExploreView.swift */; };
+		A5111D542B9A176000BBCB61 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5111D532B9A176000BBCB61 /* UserCell.swift */; };
 		A57B5B862B96BD3D00830D46 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B5B852B96BD3D00830D46 /* MainTabView.swift */; };
 		A5A7314D2B998307000CFCB6 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A7314C2B998307000CFCB6 /* FeedCell.swift */; };
 		A5A7314F2B9985F6000CFCB6 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A7314E2B9985F6000CFCB6 /* FeedView.swift */; };
@@ -23,6 +27,10 @@
 		A50802D22B90678C00E90F3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A50802D42B90678D00E90F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A50802D72B90678D00E90F3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5111D4D2B9A151A00BBCB61 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		A5111D4F2B9A152400BBCB61 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		A5111D512B9A175900BBCB61 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		A5111D532B9A176000BBCB61 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		A57B5B852B96BD3D00830D46 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		A5A7314C2B998307000CFCB6 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		A5A7314E2B9985F6000CFCB6 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
@@ -151,6 +159,8 @@
 		A55967C72B9069470041B3E4 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				A5111D512B9A175900BBCB61 /* ExploreView.swift */,
+				A5111D532B9A176000BBCB61 /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -173,6 +183,8 @@
 		A55967CA2B90694C0041B3E4 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				A5111D4D2B9A151A00BBCB61 /* NotificationView.swift */,
+				A5111D4F2B9A152400BBCB61 /* NotificationCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -283,6 +295,10 @@
 				A5A7314D2B998307000CFCB6 /* FeedCell.swift in Sources */,
 				A50802D12B90678C00E90F3E /* TikTokApp.swift in Sources */,
 				A57B5B862B96BD3D00830D46 /* MainTabView.swift in Sources */,
+				A5111D4E2B9A151A00BBCB61 /* NotificationView.swift in Sources */,
+				A5111D522B9A175900BBCB61 /* ExploreView.swift in Sources */,
+				A5111D502B9A152400BBCB61 /* NotificationCell.swift in Sources */,
+				A5111D542B9A176000BBCB61 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
