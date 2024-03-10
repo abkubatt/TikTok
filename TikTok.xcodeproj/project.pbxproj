@@ -15,6 +15,10 @@
 		A5111D502B9A152400BBCB61 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5111D4F2B9A152400BBCB61 /* NotificationCell.swift */; };
 		A5111D522B9A175900BBCB61 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5111D512B9A175900BBCB61 /* ExploreView.swift */; };
 		A5111D542B9A176000BBCB61 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5111D532B9A176000BBCB61 /* UserCell.swift */; };
+		A554AC252B9DCF7E006A7925 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554AC242B9DCF7E006A7925 /* CurrentUserProfileView.swift */; };
+		A554AC272B9DD002006A7925 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554AC262B9DD002006A7925 /* PostGridView.swift */; };
+		A554AC292B9DD0B8006A7925 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554AC282B9DD0B8006A7925 /* ProfileHeaderView.swift */; };
+		A554AC2B2B9DD1A0006A7925 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554AC2A2B9DD1A0006A7925 /* UserStatView.swift */; };
 		A57B5B862B96BD3D00830D46 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B5B852B96BD3D00830D46 /* MainTabView.swift */; };
 		A5A7314D2B998307000CFCB6 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A7314C2B998307000CFCB6 /* FeedCell.swift */; };
 		A5A7314F2B9985F6000CFCB6 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A7314E2B9985F6000CFCB6 /* FeedView.swift */; };
@@ -31,6 +35,10 @@
 		A5111D4F2B9A152400BBCB61 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		A5111D512B9A175900BBCB61 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		A5111D532B9A176000BBCB61 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		A554AC242B9DCF7E006A7925 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		A554AC262B9DD002006A7925 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		A554AC282B9DD0B8006A7925 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		A554AC2A2B9DD1A0006A7925 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		A57B5B852B96BD3D00830D46 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		A5A7314C2B998307000CFCB6 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		A5A7314E2B9985F6000CFCB6 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
@@ -84,6 +92,23 @@
 				A50802D72B90678D00E90F3E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A554AC222B9DCF4D006A7925 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A554AC262B9DD002006A7925 /* PostGridView.swift */,
+				A554AC282B9DD0B8006A7925 /* ProfileHeaderView.swift */,
+				A554AC2A2B9DD1A0006A7925 /* UserStatView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A554AC232B9DCF56006A7925 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A55967BF2B9068B90041B3E4 /* Utils */ = {
@@ -176,6 +201,9 @@
 		A55967C92B90694B0041B3E4 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				A554AC232B9DCF56006A7925 /* View */,
+				A554AC222B9DCF4D006A7925 /* Components */,
+				A554AC242B9DCF7E006A7925 /* CurrentUserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -292,11 +320,15 @@
 			files = (
 				A5A7314F2B9985F6000CFCB6 /* FeedView.swift in Sources */,
 				A50802D32B90678C00E90F3E /* ContentView.swift in Sources */,
+				A554AC272B9DD002006A7925 /* PostGridView.swift in Sources */,
+				A554AC2B2B9DD1A0006A7925 /* UserStatView.swift in Sources */,
 				A5A7314D2B998307000CFCB6 /* FeedCell.swift in Sources */,
 				A50802D12B90678C00E90F3E /* TikTokApp.swift in Sources */,
 				A57B5B862B96BD3D00830D46 /* MainTabView.swift in Sources */,
 				A5111D4E2B9A151A00BBCB61 /* NotificationView.swift in Sources */,
+				A554AC292B9DD0B8006A7925 /* ProfileHeaderView.swift in Sources */,
 				A5111D522B9A175900BBCB61 /* ExploreView.swift in Sources */,
+				A554AC252B9DCF7E006A7925 /* CurrentUserProfileView.swift in Sources */,
 				A5111D502B9A152400BBCB61 /* NotificationCell.swift in Sources */,
 				A5111D542B9A176000BBCB61 /* UserCell.swift in Sources */,
 			);
