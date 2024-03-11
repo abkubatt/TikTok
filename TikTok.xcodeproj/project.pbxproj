@@ -23,6 +23,9 @@
 		A5A7314D2B998307000CFCB6 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A7314C2B998307000CFCB6 /* FeedCell.swift */; };
 		A5A7314F2B9985F6000CFCB6 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A7314E2B9985F6000CFCB6 /* FeedView.swift */; };
 		A5A731512B998727000CFCB6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A731502B998727000CFCB6 /* Launch Screen.storyboard */; };
+		A5D6E8A22B9F039800CEB9D1 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6E8A12B9F039800CEB9D1 /* CustomVideoPlayer.swift */; };
+		A5D6E8A42B9F048700CEB9D1 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6E8A32B9F048700CEB9D1 /* FeedViewModel.swift */; };
+		A5D6E8A62B9F05AA00CEB9D1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6E8A52B9F05AA00CEB9D1 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		A5A7314C2B998307000CFCB6 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		A5A7314E2B9985F6000CFCB6 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		A5A731502B998727000CFCB6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A5D6E8A12B9F039800CEB9D1 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		A5D6E8A32B9F048700CEB9D1 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		A5D6E8A52B9F05AA00CEB9D1 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,7 @@
 		A55967C12B9068BC0041B3E4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A5D6E8A52B9F05AA00CEB9D1 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -220,8 +227,9 @@
 		A55967CB2B90694D0041B3E4 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				A5A7314C2B998307000CFCB6 /* FeedCell.swift */,
-				A5A7314E2B9985F6000CFCB6 /* FeedView.swift */,
+				A5D6E8A02B9F024200CEB9D1 /* Service */,
+				A5D6E89F2B9F024100CEB9D1 /* ViewModel */,
+				A5D6E89E2B9F023C00CEB9D1 /* View */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -229,6 +237,7 @@
 		A55967CC2B90694E0041B3E4 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				A5D6E8A12B9F039800CEB9D1 /* CustomVideoPlayer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -245,6 +254,30 @@
 			children = (
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		A5D6E89E2B9F023C00CEB9D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5A7314C2B998307000CFCB6 /* FeedCell.swift */,
+				A5A7314E2B9985F6000CFCB6 /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5D6E89F2B9F024100CEB9D1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A5D6E8A32B9F048700CEB9D1 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A5D6E8A02B9F024200CEB9D1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,10 +356,13 @@
 				A554AC272B9DD002006A7925 /* PostGridView.swift in Sources */,
 				A554AC2B2B9DD1A0006A7925 /* UserStatView.swift in Sources */,
 				A5A7314D2B998307000CFCB6 /* FeedCell.swift in Sources */,
+				A5D6E8A42B9F048700CEB9D1 /* FeedViewModel.swift in Sources */,
 				A50802D12B90678C00E90F3E /* TikTokApp.swift in Sources */,
 				A57B5B862B96BD3D00830D46 /* MainTabView.swift in Sources */,
+				A5D6E8A22B9F039800CEB9D1 /* CustomVideoPlayer.swift in Sources */,
 				A5111D4E2B9A151A00BBCB61 /* NotificationView.swift in Sources */,
 				A554AC292B9DD0B8006A7925 /* ProfileHeaderView.swift in Sources */,
+				A5D6E8A62B9F05AA00CEB9D1 /* Post.swift in Sources */,
 				A5111D522B9A175900BBCB61 /* ExploreView.swift in Sources */,
 				A554AC252B9DCF7E006A7925 /* CurrentUserProfileView.swift in Sources */,
 				A5111D502B9A152400BBCB61 /* NotificationCell.swift in Sources */,
