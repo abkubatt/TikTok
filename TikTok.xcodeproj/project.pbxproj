@@ -259,8 +259,8 @@
 		A5D6E89E2B9F023C00CEB9D1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A5A7314C2B998307000CFCB6 /* FeedCell.swift */,
 				A5A7314E2B9985F6000CFCB6 /* FeedView.swift */,
+				A5A7314C2B998307000CFCB6 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

@@ -12,9 +12,9 @@ struct FeedCell: View {
     let post: Post
     var player: AVPlayer
     
-    init(post: Post) {
+    init(post: Post, player: AVPlayer) {
         self.post = post
-        self.player = AVPlayer(url: URL(string: post.videoUrl)!)
+        self.player = player
     }
 
     var body: some View {
@@ -98,13 +98,21 @@ struct FeedCell: View {
             }
             .padding()
         }
-        .onAppear {
-            print("post id: \(post.id)")
-            player.play()
+        .onTapGesture {
+            switch player.timeControlStatus {
+            case .paused:
+                player.play()
+            case .waitingToPlayAtSpecifiedRate:
+                break
+            case .playing:
+                player.pause()
+            @unknown default:
+                break
+            }
         }
     }
 }
 
 #Preview {
-    FeedCell(post: Post(id: "", videoUrl: ""))
+    FeedCell(post: Post(id: "", videoUrl: ""), player: AVPlayer())
 }
